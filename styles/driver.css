@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+    
+body {
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+}
+header{
+    height: 80px;
+    text-align: center;
+    background-color: #a41b0e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#pic{
+    filter: invert(100%);
+    width: 50px;
+    height: 50px;
+    margin-left: 35%;
+}
+
+a{
+    height: 60px;
+    width: 60px;
+}
+#home{
+    filter: invert(100%);
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    margin-left: 50%;
+}
+h1{
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: rgb(62, 141, 172);
+    stroke-width: 5px;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.focus{
+    margin-bottom: 10px;
+}
+.tooltip {
+    margin-top: 350px;
+    margin-left: 350px;
+    width: 100px;
+    padding: 4px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    pointer-events: none;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.tooltip div {
+    margin: 3px 0;
+}
+
+.tooltip-season, .tooltip-position {
+    font-weight: bold;
+}
+
+.svgc{
+    text-align: center;
+}
+
+#piecharts{
+    text-align: center;
+}
+
+.nonp{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 8%;
+}
+
+#search {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#search p{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+input {
+    font-size: 20px;
+    height: 33px;
+    width: 400px;
+    padding-left: 25px;
+    border-color: #a41b0e;
+}
+
+input:focus {
+    outline: none;
+}
+
+.foundDrivers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.driverInfo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: maroon;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.driverInfo:hover {
+    background-color: #a41b0e;
+}
+
+.driverInfo a{
+    width: 100%;
+}
+
+.name {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.emptyMsg {
+    font-size: 30px;
+    text-align: center;
+}
